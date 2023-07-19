@@ -1,0 +1,83 @@
+@import './reset.css';
+
+body {
+	font-family: 'Courier New', Courier, monospace;
+	background: rgb(205, 0, 116);
+	background: linear-gradient(
+		90deg,
+		rgba(205, 0, 116, 1) 0%,
+		rgba(153, 38, 103, 1) 25%,
+		rgba(133, 0, 75, 1) 50%,
+		rgba(230, 57, 155, 1) 75%,
+		rgba(230, 103, 175, 1) 100%
+	);
+
+	header {
+		width: 100%;
+		background-color: aliceblue;
+		padding: 1vh 0;
+
+		.header_list {
+			display: flex;
+			justify-content: space-between;
+			width: 40%;
+			margin: 0 auto;
+
+			a {
+				font-size: 24px;
+				font-weight: 700;
+				color: #1a1a1a;
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	main {
+		width: 35%;
+		margin: 0 auto;
+		padding-top: 2vh;
+
+		h2 {
+			font-size: 24px;
+			font-weight: 700;
+		}
+		h3 {
+			font-size: 18px;
+			font-weight: 600;
+		}
+		article {
+			color: rgb(13, 13, 95);
+		}
+		.info_block {
+			color: #dfdddd;
+			margin: 20px 0;
+			width: 100%;
+			border: 1px solid white;
+			.info_row {
+				padding: 8px 0;
+				width: 100%;
+				display: inline-block;
+				border-bottom: 1px solid white;
+			}
+			.info_answer {
+				float: right;
+			}
+		}
+		.section_bio {
+			margin-bottom: 20px;
+
+			.image_wrapper {
+        text-align: center;
+				float: right;
+				color: #000000;
+				img {
+					border-radius: 20px;
+					border: 1px solid #8d8d8d;
+				}
+			}
+		}
+	}
+}
