@@ -30,7 +30,11 @@ const webpackConfig = {
 				{
 					from: './src/assets/images',
 					to: 'assets/images'
-				}
+				},
+				{
+          from: './src/scss/print.css', // Путь к исходному файлу, который нужно скопировать
+          to: 'print.css', // Путь к месту, куда нужно скопировать файл
+        },
 			]
 		}),
 		new HtmlWebpackPlugin({

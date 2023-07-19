@@ -1,0 +1,22 @@
+/* print.css */
+
+header, footer {
+  display: none;
+}
+
+* {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+a::after {
+  content: " (" attr(href) ") ";
+}
+
+body {
+  font-family: "Times New Roman", Georgia, Palatino, serif;
+}
+
+body {
+  margin: 50px;
+}
